@@ -4,7 +4,7 @@
 
 .wrapperportfolio {
     width: 960px;
-    height: 780px;
+    height: 850px;
     background-color: #ffffff;
     margin: 0 auto;
     padding: 20px;
@@ -66,6 +66,23 @@
     border-bottom: 2px solid #cccccc;
 
 }
+
+.headerindex {
+    width: 100%;
+    height: 95px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+
+}
+
+.headerportfolio {
+    width: 100%;
+    height: 95px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+
+}
+
 
 #logo {
     background-color: #4aaaa5;
@@ -150,7 +167,7 @@
 
 .portfoliobox2 {
     float: right;
-    padding-right: 400px;
+    padding-right: 475px;
 }
 
 .portfoliobox3 {
@@ -162,7 +179,7 @@
     float: right;
     padding-right: 400px;
     position: absolute;
-    left: 535px;
+    left: 461px;
     top: 497px;
 }
 
@@ -232,7 +249,21 @@ a:hover {
         margin-left: 25px;
     }
 @media screen and (max-width: 980px) {
-    .header {
+    .wrapperportfolio {
+        width: 105%;
+        height: 850px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        padding: 20px;
+        margin-left: 25px;
+        clear: both;
+        overflow: hidden;
+        border-style: solid 50px;
+        border-color: #dddddd;
+     }
+    }
+@media screen and (max-width: 980px) {
+    .headerindex {
         width: 100%;
         height: 95px;
         background-color: #ffffff;
@@ -240,6 +271,16 @@ a:hover {
     
         }   
     }
+
+@media screen and (max-width: 980px) {
+    .headerportfolio {
+        width: 111%;
+        height: 95px;
+        background-color: #ffffff;
+        border-bottom: 2px solid #cccccc;
+    
+    }
+}
 @media screen and (max-width: 980px) {         
     #logo {
         background-color: #4aaaa5;
@@ -269,6 +310,37 @@ a:hover {
     top: 60px;
   }
 }
+@media screen and (max-width: 980px) { 
+.portfoliobox2 {
+    float: right;
+    padding-right: 550px;
+}
+}
+@media screen and (max-width: 980px) { 
+.portfoliobox4 {
+    float: right;
+    padding-right: 400px;
+    position: absolute;
+    left: 277px;
+    top: 497px;
+}
+}
+@media screen and (max-width: 980px) {
+.portfoliobox5 {
+    float: right;
+    position: absolute;
+    right: 325px;
+    top: 715px;
+}
+@media screen and (max-width: 980px) {
+    .portfoliobox5 {
+        float: right;
+        position: absolute;
+        right: 325px;
+        top: 715px;
+    }
+}
+
 @media screen and (max-width: 980px) {  
 .bodycopy {
     width: 625px;
@@ -366,7 +438,7 @@ a:hover {
         }
     }
     @media screen and (max-width: 640px) {
-        .header {
+        .headerindex {
             width: 100%;
             height: 65px;
             background-color: #ffffff;
